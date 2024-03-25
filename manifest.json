@@ -1,7 +1,7 @@
 {
     "name": "Watershed DEM Raster Connector",
     "container": "deminput-connector",
-    "description": "Accepts a site_id and resolution and downloads the watershed shapefile and overlapping DEM tiles"
+    "description": "Accepts a site_id and resolution and downloads the watershed shapefile and overlapping DEM tiles",
     "pre_processing_stage": "python3 create_connector_yml.py",
     "execution_stage": "./main.sh",
     "post_processing_stage": "./transfer_shared_outputs.sh",
